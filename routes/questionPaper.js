@@ -3,6 +3,9 @@ const {questionGeneratorController} = require("../controller/questionGeneratorCo
 const router = express.Router();
 
 // Get question paper
-router.get("/", questionGeneratorController);
+router.get(
+  "/",
+  questionGeneratorController
+);
 
 module.exports = router;
