@@ -17,7 +17,7 @@ This Node.js API provides a questions generator at the endpoint `/api/questionsG
 To generate 5 easy, 3 medium, and 2 hard-level questions with a total mark value of 50, you can use the following curl command:
 
 ```bash
-curl -X GET "http://your-api-base-url/api/questionsGenerator?easy=5&medium=3&hard=2&marks=50"
+curl -X GET "https://reelo-assignment.onrender.com/api/questionsGenerator?easy=10&medium=30&hard=60&marks=50"
 
 
 
